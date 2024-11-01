@@ -2,10 +2,10 @@
 `touch` `< file_name >`
 
 # Unzip and install `pkg.tar.zst` files
-`sudo pacman -U --noconfirm your-package.pkg.tar.zst`
+`sudo` `pacman` `-U` `--noconfirm` `your-package.pkg.tar.zst`
 
 # Run a command and let it run in the background (in this example launch waybar and let it run in the background and you can use the terminal for other things):
-waybar & disown
+`waybar` `&` `disown`
 
 #To list processes in Linux, use one of the five commands: 
 `ps`, `top`, `htop`, `atop`, and `pstree`.
