@@ -1,3 +1,6 @@
+# Create an empty file
+`touch` `< file_name >`
+
 # Unzip and install `pkg.tar.zst` files
 `sudo pacman -U --noconfirm your-package.pkg.tar.zst`
 
