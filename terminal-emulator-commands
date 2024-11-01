@@ -24,3 +24,7 @@
         `-w` # Count words.
         `-c` # Count bytes (or characters, depending on the implementation).
         `-m` # Count characters (especially relevant for multi-byte character encodings).
+
+# Set 500 mb limit to `root/var/log/journal` files (useful when you've run out of disk space on root partition and have gotten the error message: "your root partition is running out of disk space, you have 0 mib remaining (0%).":
+`sudo` `journalctl` `--vacuum-size=500M`
+
