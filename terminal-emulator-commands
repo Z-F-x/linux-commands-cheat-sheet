@@ -15,3 +15,12 @@ waybar & disown
 
 # Print the path of current directory
 `pwd`
+
+# countnumber of lines in a file; 
+`wc` `< file_name >` # wc = word count
+
+        # Common Options:
+        `-l` # Count lines.
+        `-w` # Count words.
+        `-c` # Count bytes (or characters, depending on the implementation).
+        `-m` # Count characters (especially relevant for multi-byte character encodings).
