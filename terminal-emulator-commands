@@ -9,3 +9,6 @@ waybar & disown
 
 # Kill task Identify the name of the process to be terminated. Execute the following command, replacing < process_name > with the name of the target process: 
 `killall` `< process_name >`
+
+# Print the path of current directory
+`pwd`
