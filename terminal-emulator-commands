@@ -83,3 +83,8 @@ Conclusion
 
 The command sudo chmod 666 /dev/vmnet* sets read and write permissions for everyone on the /dev/vmnet* device files, which is sometimes used to troubleshoot or ensure VMware has access to these devices. However, be cautious and consider reverting the permissions to a more secure setting once you’re done troubleshooting.
 
+------------------------------------------------------------------------
+
+#When the sudoers password / sudo password does not work
+faillock --reset
+
