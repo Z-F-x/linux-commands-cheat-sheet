@@ -1,3 +1,6 @@
+# Output the list of a specific filetype
+`printf` `"%s\n"` `*.txt`
+
 # Create an empty file
 `touch` `< file_name >`
 
