@@ -3,6 +3,9 @@
 ## Search for a package in pacman repository:
 ```sudo pacman -Ss packageName```
 
+## Search for package details
+```pacman -Si packageName```
+
 ## Search every package by name / word / string:
 ```pacman -Q | grep python```
 
@@ -15,4 +18,4 @@
 
 ### Method with `yes` piping
 ```yes | yay -S davinci-resolve-bet```
-
+ 
